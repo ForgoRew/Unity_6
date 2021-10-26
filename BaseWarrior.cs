@@ -8,8 +8,8 @@ public class BaseWarrior : MonoBehaviour {
 
     public string BaseWarrior 
     {
-        get {return BaseWarrior;}
-        set {BaseWarrior = Warrior;}
+        get {return baseWarrior;}
+        set {baseWarrior = Warrior;}
     }
     public int Damage
     {
