@@ -4,6 +4,11 @@ public class BaseWarrior : BaseClassScript {
         get {return cheesecake;}
         set {cheesecake = value;}
     }
+    public bool hasCheese;
+    public bool HasCheese{
+        get {if (hasCheese==true){hasCheese=false; cheesecake=true; return "F. Supplier: gimme 3 $!";}else{return false}}
+        set {hasCheese=value;}    
+    }
     public BaseWarrior() {
 
         ClassName="Warrior";
