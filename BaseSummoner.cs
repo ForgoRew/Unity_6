@@ -1,5 +1,4 @@
 public class BaseSummoner : BaseClassScript {
-    public GameObject summonObject;
     public BaseSummoner() {
         ClassName = "Summoner";
         Damage = 5;
@@ -7,17 +6,5 @@ public class BaseSummoner : BaseClassScript {
         Agility = 3;
         Strenght = 4;
         Inteligence = 3;
-    }
-
-    void private void Update() {
-        if (Input.GetKey("r"))
-        {
-            Summon();
-        }
-    }
-
-    public void Summon()
-    {
-        Instantiate(summonObject);
     }
 }
