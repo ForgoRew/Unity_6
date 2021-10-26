@@ -5,6 +5,7 @@ public class BaseClassScript {
     private int agility;
     private int strenght;
     private int inteligence;
+    private bool cheesecake;
 
     public string ClassName 
     {
@@ -33,6 +34,7 @@ public class BaseClassScript {
         get {return inteligence;}
         set {inteligence = value;}
     }
+    
 
 
 }
