@@ -1,5 +1,6 @@
 public class BaseFoodSupplier : BaseClassScript {
     private string specialAbility;
+    private bool hasCheese;
     public string RiceCooked(){
         return "plz 5 $ for rice...";
     }
@@ -7,6 +8,10 @@ public class BaseFoodSupplier : BaseClassScript {
     public string SpecialAbility{
         get {return specialAbility;}
         set {specialAbility=value;}
+    }
+    public bool HasCheese{
+        get {if (hasCheese == true){return "Here is ur cheesecake...";}else{return "NO CHEESECAKE FOR U!";}}
+        set {hasCheese=value;}
     }
     public BaseFoodSupplier(){
         ClassName="Food Supplier";
