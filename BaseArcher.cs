@@ -3,9 +3,9 @@ public class BaseArcher : BaseClassScript {
         ClassName = "Archer";
         Damage = 1;
         Health = 5;
-        Agility = 5;
+        Agility = 4;
         Strength = 2;
-        Inteligence = 5;
+        Inteligence = 3;
 
     }
 }
