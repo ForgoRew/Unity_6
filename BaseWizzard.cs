@@ -1,4 +1,4 @@
-public class BaseNewbie : BaseClassScript {
+public class BaseWizzard : BaseClassScript {
     public BaseWizzard() {
         ClassName = "Wizzard";
         Damage = 5;
