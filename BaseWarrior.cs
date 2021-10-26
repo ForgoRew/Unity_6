@@ -1,4 +1,4 @@
-public class BaseWarrior : MonoBehaviour {
+public class BaseWarrior {
     private string baseWarrior;
     private int damage;
     private double health;
