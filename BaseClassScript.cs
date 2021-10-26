@@ -6,7 +6,7 @@ public class BaseClassScript {
     private int strenght;
     private int inteligence;
 
-    public string ClassName;
+    public string ClassName 
     {
         get {return className;}
         set {className = value;}
@@ -16,23 +16,23 @@ public class BaseClassScript {
         get {return damage;}
         set {damage = value;}
     }
-    public double health{
+    public double Health
+    {
         get {return health;}
-        set {set health;}
+        set {health = value;}
     }
-    public int agility
-    {
+    public int Agility{
         get {return agility;}
-        set {set agility;}
+        set {agility = value;}
     }
-    public int strenght
-    {
-        get {return agility;}
-        set {set agility;}
+    public int Strength{
+        get {return strength;}
+        set {strength = value;}
     }
-    public int inteligence
-    {
-        get {return agility;}
-        set {set agility;}
+    public int Inteligence {
+        get {return inteligence;}
+        set {inteligence = value;}
     }
+
+
 }
