@@ -1,5 +1,8 @@
 public class BaseFoodSupplier : BaseClassScript {
     private string specialAbility;
+    public string RiceCooked(){
+        return "plz 5 $ for rice...";
+    }
 
     public string SpecialAbility{
         get {return specialAbility;}

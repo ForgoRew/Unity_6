@@ -6,6 +6,5 @@ public class BaseArcher : BaseClassScript {
         Agility = 4;
         Strength = 2;
         Inteligence = 3;
-
     }
 }
