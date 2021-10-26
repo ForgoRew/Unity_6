@@ -6,7 +6,7 @@ public class BaseWarrior : BaseClassScript {
     }
     public bool hasCheese;
     public bool HasCheese{
-        get {if (hasCheese==true){hasCheese=false; cheesecake=true; return "F. Supplier: gimme 3 $!";}else{return false}}
+        get {if (hasCheese==true){hasCheese=false; cheesecake=true; return "F. Supplier: gimme 3 $!";}else{return false;}}
         set {hasCheese=value;}    
     }
     public BaseWarrior() {
