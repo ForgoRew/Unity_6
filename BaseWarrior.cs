@@ -3,7 +3,7 @@ public class BaseWarrior : MonoBehaviour {
     private int damage;
     private double health;
     private int agility;
-    private int strenght;
+    private int strength;
     private int inteligence;
 
     public string BaseWarrior 
