@@ -5,6 +5,7 @@ public class BaseClassScript {
     private int agility;
     private int strenght;
     private int inteligence;
+    private string name;
 
     public string ClassName 
     {
