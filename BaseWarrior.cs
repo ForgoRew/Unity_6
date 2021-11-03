@@ -18,7 +18,5 @@ public class BaseWarrior : BaseClassScript {
         Inteligence=1;
         Strength=1;
         Cheesecake=true;
-
     }
-
 }
