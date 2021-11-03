@@ -15,7 +15,7 @@ public class BaseSummoner : BaseClassScript {
         Damage = 5;
         Health = 5;
         Agility = 3;
-        Strenght = 4;
+        Strength = 4;
         Inteligence = 3;
         SummonAbility = "ghost";
     }
